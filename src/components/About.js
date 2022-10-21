@@ -70,7 +70,7 @@ const About = () => {
         <Center>
             <Title>Projects</Title>
             <List>
-                <ListItem><a style={{textDecoration: 'none'}} href="https://lightfrontend-csu8oai6s-ukazpromise.vercel.app/">Light24/7</a></ListItem>
+                <ListItem><a style={{textDecoration: 'none'}} href="https://lightfrontend-hw1rl2yad-ukazpromise.vercel.app/">Light24/7</a></ListItem>
                 <ListItem><a style={{textDecoration: 'none'}} href="https://ukazpromise.github.io/Calculator.by.protech/">Calculator</a></ListItem>
                 <ListItem><a style={{textDecoration: 'none'}} href="https://ukazpromise.github.io/Protech.drum.machine/">Drum Machine</a></ListItem>
                 <ListItem><a style={{textDecoration: 'none'}} href=" https://ukazpromise.github.io/Markdown.previewer.by.Protech/">Light24/7</a></ListItem>
