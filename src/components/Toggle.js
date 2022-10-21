@@ -5,17 +5,16 @@ import { mobile } from "../Responsive";
 let Sun, Moon;
 
 Sun = Moon = styled.svg`
-  margin-bottom: 90px;
+  margin-bottom: 100px;
   font-size: 14px;
   position: fixed;
   top: 2rem;
   right: 4rem;
   transition: all .5s linear;
-  ${mobile({ flexDirection: "column"})}  
+  ${mobile({ flexDirection: "column"})}   
 `;
 
 export const Toggle = ({ theme, toggleTheme }) => {
-    console.log(theme);
     return (
         <div onClick={toggleTheme}>
             { theme === 'light' ? <Moon xmlns="http://www.w3.org/2000/svg" width="48" height="48"

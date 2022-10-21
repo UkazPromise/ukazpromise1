@@ -10,7 +10,7 @@ const Container = styled.div`
   left: 0;
   z-index: 10000000;
   width: 90%;
-  ${mobile({ flexDirection: "column"})}
+  ${mobile({ flexDirection: "column"})}   
 `;
 
 const Left = styled.div`

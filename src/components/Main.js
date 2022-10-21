@@ -4,7 +4,7 @@ import { mobile } from "../Responsive";
 
 const Container = styled.div`
   margin-top: 80px;
-  ${mobile({ flexDirection: "column"})}
+  ${mobile({ flexDirection: "column"})}  
 `
 const Wrapper = styled.div`
 `
